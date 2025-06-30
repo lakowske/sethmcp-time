@@ -1,0 +1,24 @@
+{
+  "name": "mcp-time-server",
+  "version": "1.0.0",
+  "description": "A simple MCP stdio time server",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "time",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
